@@ -1,0 +1,1 @@
+This repository showcases a subtle bug in Rust related to raw pointer manipulation and vector mutation.  The `bug.rs` file contains code that leads to unexpected behavior due to the raw pointer potentially becoming invalid after the original vector is modified.  The solution demonstrates a safer approach using proper memory management and avoiding unsafe code where possible.
